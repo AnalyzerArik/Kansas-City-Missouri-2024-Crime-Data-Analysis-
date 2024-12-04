@@ -2,6 +2,9 @@
 
 In this notebook, I will focus on geospatial techniques using crime data from Kansas City, MO. While the dataset offers extensive opportunities for analysis, this notebook will remain concise, providing a snapshot of key insights. The primary goal is to demonstrate proficiency with tools such as Folium, Plotly, Pandas, and NumPy.
 
+[View the Interactive HTML](kansas-city-crime-geospatial-analysis.html)
+
+
 ## **About the Data: Kansas City Police Department (KCPD) Crime Data**
 
 This dataset contains detailed information about reported crimes in Kansas City, Missouri, for the year 2024. It is designed to support geospatial, temporal, and categorical analyses of crime patterns. You may notice that the data markers center on the right side of Kansas City with a clear distinction. This is because Kansas City sits on the border of Kansas and Missouri and there is a separate Police Department for Kansas City, Kansas. This data is only the Missouri statistics. The data includes information on the type of crimes, their locations, involved individuals, and temporal details. This is real-world data that is updated on a weekly basis, available at https://data.kcmo.org/Crime/KCPD-Crime-Data-2024/isbe-v4d8/about_data.
