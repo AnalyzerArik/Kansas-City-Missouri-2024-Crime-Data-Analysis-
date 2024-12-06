@@ -2,7 +2,11 @@
 
 In this notebook, I will focus on geospatial techniques using crime data from Kansas City, MO. While the dataset offers extensive opportunities for analysis, this notebook will remain concise, providing a snapshot of key insights. The primary goal is to demonstrate proficiency with tools such as Folium, Plotly, Pandas, and NumPy.
 
-[View the Interactive HTML](kansas-city-crime-geospatial-analysis.html)
+[View the Interactive HTML in Github](kansas-city-crime-geospatial-analysis.html)
+
+or
+
+[View in NBViewer](https://nbviewer.org/github/AnalyzerArik/Kansas-City-Missouri-2024-Crime-Data-Analysis-/blob/main/kansas-city-crime-geospatial-analysis.html)
 
 
 ## **About the Data: Kansas City Police Department (KCPD) Crime Data**
