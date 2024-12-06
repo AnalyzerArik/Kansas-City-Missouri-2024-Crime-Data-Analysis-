@@ -15,7 +15,7 @@ This dataset contains detailed information about reported crimes in Kansas City,
 
 ## Data Overview
 - **Dataset:** Kansas City Police Department (KCPD) Crime Data  
-- **Rows:** [Add total rows]  
+- **Rows:** 95932  
 - **Columns:** 24 (e.g., Report_No, Offense, Address, Description, Firearm Used Flag)  
 - **Source:** [KCPD Open Data Portal](https://data.kcmo.org/Crime/KCPD-Crime-Data-2024/isbe-v4d8/about_data).
 
