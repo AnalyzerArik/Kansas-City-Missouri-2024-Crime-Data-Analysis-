@@ -1,36 +1,98 @@
 # Data Analysis of Kansas City Crime Data
 
-In this notebook, I will focus on geospatial techniques using crime data from Kansas City, MO. While the dataset offers extensive opportunities for analysis, this notebook will remain concise, providing a snapshot of key insights. The primary goal is to demonstrate proficiency with tools such as Folium, Plotly, Pandas, and NumPy.
+---
 
-[View the Interactive HTML in Github](kansas-city-crime-geospatial-analysis.html)
+## **Table of Contents**
+1. [Introduction](#introduction)  
+2. [Dataset Description](#dataset-description)  
+3. [Project Objectives](#project-objectives)  
+4. [Methodology](#methodology)  
+5. [Key Findings](#key-findings)  
+6. [Tools and Libraries Used](#tools-and-libraries-used)  
+7. [Future Work](#future-work)  
+8. [Acknowledgments](#acknowledgments)  
 
-or
+---
 
+## **Introduction**
+This project focuses on geospatial analysis of crime data from Kansas City, Missouri, for the year 2024. Using tools such as Folium, Plotly, Pandas, and NumPy, this analysis explores crime patterns and trends to provide actionable insights. While the dataset offers extensive opportunities for analysis, this project remains concise, showcasing key insights and demonstrating proficiency with geospatial techniques.
+
+[View the Interactive HTML in Github](kansas-city-crime-geospatial-analysis.html)  
+or  
 [View in NBViewer](https://nbviewer.org/github/AnalyzerArik/Kansas-City-Missouri-2024-Crime-Data-Analysis-/blob/main/kansas-city-crime-geospatial-analysis.html)
 
+---
 
-## **About the Data: Kansas City Police Department (KCPD) Crime Data**
+## **Dataset Description**
+- **Source**: [KCPD Open Data Portal](https://data.kcmo.org/Crime/KCPD-Crime-Data-2024/isbe-v4d8/about_data)  
+- **Rows**: 95,932  
+- **Columns**: 24  
+  - Example columns: `Report_No`, `Offense`, `Address`, `Description`, `Firearm Used Flag`.  
+- **Notes**:  
+  - The data is specific to Kansas City, Missouri, excluding statistics from Kansas City, Kansas, which has a separate police department.  
+  - Updated weekly with real-world crime data.  
 
-This dataset contains detailed information about reported crimes in Kansas City, Missouri, for the year 2024. It is designed to support geospatial, temporal, and categorical analyses of crime patterns. You may notice that the data markers center on the right side of Kansas City with a clear distinction. This is because Kansas City sits on the border of Kansas and Missouri and there is a separate Police Department for Kansas City, Kansas. This data is only the Missouri statistics. The data includes information on the type of crimes, their locations, involved individuals, and temporal details. This is real-world data that is updated on a weekly basis, available at https://data.kcmo.org/Crime/KCPD-Crime-Data-2024/isbe-v4d8/about_data.
+---
 
-## Data Overview
-- **Dataset:** Kansas City Police Department (KCPD) Crime Data  
-- **Rows:** 95932  
-- **Columns:** 24 (e.g., Report_No, Offense, Address, Description, Firearm Used Flag)  
-- **Source:** [KCPD Open Data Portal](https://data.kcmo.org/Crime/KCPD-Crime-Data-2024/isbe-v4d8/about_data).
+## **Project Objectives**
+- Identify geospatial and trending crime patterns.  
+- Highlight hotspots and high-crime areas using geospatial visualization techniques.  
+- Provide actionable insights into crime trends and contributing factors.  
+- Demonstrate advanced proficiency with geospatial tools and techniques.  
 
-## Methodology
-- 1. Data preprocessing and cleaning to handle null values and format datetime fields.
-- 2. Exploratory Data Analysis (EDA) focusing on categorical, and geospatial trends.
-- 3. Geospatial visualization of crime hotspots using Folium maps.
-- 4. Categorization and summary of crime types with statistical insights.
+---
 
-## Key Findings
-- Crime rates exhibit distinct peaks during evening hours and weekends.
-- Certain patrol districts and neighborhoods have significantly higher crime concentrations.
-- Domestic violence incidents often cluster within specific geographic areas.
-- Firearm-related crimes constitute a notable percentage of violent offenses.
+## **Methodology**
+1. **Data Preprocessing**:  
+   - Handled null values and cleaned the dataset.  
+   - Reformatted datetime fields for temporal analysis.  
 
-## Tools and Libraries Used
-- Python Libraries: Pandas, NumPy, Matplotlib, Seaborn, Folium, Plotly.
-- Tools: Jupyter Notebook.
+2. **Exploratory Data Analysis (EDA)**:  
+   - Analyzed categorical data to identify trends in offense types.  
+   - Investigated geospatial trends by patrol district and neighborhood.  
+
+3. **Geospatial Visualization**:  
+   - Created interactive Folium maps to visualize crime hotspots and patterns.  
+   - Used Plotly for detailed temporal and geospatial analysis.  
+
+4. **Categorization and Summary**:  
+   - Summarized crime types and patterns using statistical insights.  
+
+---
+
+## **Key Findings**
+1. **Geospatial Concentrations**:  
+   - Certain patrol districts and neighborhoods show significantly higher crime densities.  
+
+2. **Domestic Violence**:  
+   - Domestic violence incidents cluster within specific geographic areas.  
+
+3. **Firearm-Related Crimes**:  
+   - A notable percentage of violent crimes involve firearms.  
+
+---
+
+## **Tools and Libraries Used**
+- **Programming Language**: Python  
+- **Libraries**:  
+  - `pandas` for data manipulation  
+  - `numpy` for numerical analysis  
+  - `matplotlib` and `seaborn` for visualizations  
+  - `folium` for geospatial mapping  
+  - `plotly` for interactive visualizations  
+- **Tools**: Jupyter Notebook  
+
+---
+
+## **Future Work**
+- Expand the analysis to include multi-year data for a longitudinal study of crime trends.  
+- Incorporate machine learning models to predict crime hotspots based on historical patterns.  
+- Conduct deeper analysis of specific crime categories, such as property crimes or violent offenses.  
+
+---
+
+## **Acknowledgments**
+Special thanks to the Kansas City Police Department for providing access to open data and to the data analysis community for their continuous support and inspiration.
+
+---
+
